@@ -1,0 +1,51 @@
+:root {
+	--white: #ffffff;
+	--black: #000000;
+	--project-blue: #087ffc;
+	--project-blue-light: #a2cffe;
+	--project-blue-dark: #02dfe2;
+	--project-yellow: #ffe90e;
+	--project-yellow-light: #fff05f;
+	--project-yellow-dark: #d4c100;
+	--project-gold: #bd9607;
+	--project-gold-light: #d7a806;
+	--project-gold-dark: #b28604;
+}
+
+*,
+a,
+ul,
+li {
+	padding: 0;
+	margin: 0;
+	list-style: 0;
+	text-decoration: 0;
+}
+
+html,
+body {
+	box-sizing: border-box;
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+body {
+	height: fit-content;
+}
+
+.container {
+	display: flex;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}
+
+.content {
+	display: flex;
+	box-sizing: content-box;
+	justify-content: center;
+	align-items: center;
+}
