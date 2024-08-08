@@ -14,7 +14,8 @@
 	);
 }
 
-.bio-header-container {
+.bio-header-container,
+.music-header-container {
 	flex-direction: column;
 	width: 100%;
 	height: fit-content;
@@ -24,7 +25,8 @@
 	margin: 50px;
 }
 
-.bio-name-container {
+.bio-name-container,
+.music-name-container {
 	color: var(--project-blue-dark);
 	font-family: 'Ballet', sans-serif;
 	width: 100%;
@@ -41,7 +43,8 @@
 	flex-wrap: wrap;
 }
 
-.bio-image-container {
+.bio-image-container,
+.music-image-cotianer {
 	height: 350px;
 	width: 350px;
 	border-radius: 20px;
@@ -101,4 +104,28 @@
 	width: 500px;
 	height: 100%;
 	line-height: 1.5;
+}
+
+/* ~~Music Page Styles */
+
+.music-album-cover-container {
+	width: 100%;
+	height: auto;
+	margin-bottom: 100px;
+	justify-content: space-around;
+}
+
+.music-album-cover-container .content {
+	height: 200px;
+	width: 200px;
+	flex-direction: column;
+	text-align: center;
+	color: var(--project-yellow);
+	font-size: 0.8rem;
+}
+
+.music-album-cover-container .content img {
+	width: 160px;
+	height: 160px;
+	margin-bottom: 10px;
 }
