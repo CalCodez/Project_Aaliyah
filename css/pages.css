@@ -188,14 +188,22 @@ marquee .album-wrapper {
 	width: 100%;
 	height: auto;
 	margin: 50px 0;
-	outline: 1px solid orangered;
 	flex-wrap: wrap;
+	justify-content: space-evenly;
+	row-gap: 20px;
+	padding: 20px;
+	background: radial-gradient(
+		var(--project-blue),
+		var(--project-blue-light),
+		var(--project-blue)
+	);
+	box-shadow: 2px 2px 20px 2px var(--project-blue-light);
+	border-radius: 10px;
 }
 
 .video-container {
 	height: fit-content;
-	width: 320px;
-	outline: 1px solid white;
+	width: 380px;
 	justify-content: space-around;
 	flex-direction: column;
 }
@@ -209,7 +217,6 @@ iframe {
 	flex-direction: column;
 	height: 60px;
 	width: 100%;
-	outline: 1px solid yellow;
 	color: var(--project-yellow);
 	text-align: center;
 	line-height: 1.5;
