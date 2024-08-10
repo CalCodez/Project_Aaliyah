@@ -243,3 +243,83 @@ iframe {
 	line-height: 1.5;
 	font-weight: 600;
 }
+
+/* ?? Movie Page Styles */
+
+.pages-movies {
+	background: linear-gradient(
+		to bottom,
+		var(--project-blue-dark),
+		var(--project-blue-light),
+		var(--project-blue-dark),
+		var(--project-blue)
+	);
+}
+
+.movie-page-banner {
+	width: 100%;
+	height: 150px;
+	margin-top: 80px;
+	box-shadow: 2px 2px 8px 2px var(--project-blue-light);
+}
+
+.movie-page-banner img {
+	object-fit: fill;
+}
+
+.movie-section {
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+	flex-direction: column;
+	row-gap: 50px;
+}
+
+.movie-card {
+	width: fit-content;
+	height: auto;
+	padding: 20px;
+	flex-wrap: wrap;
+	gap: 50px;
+}
+
+.movie-image-container {
+	width: 400px;
+	height: 420px;
+}
+
+.movie-image-container img {
+	object-fit: fill;
+}
+
+.movie-details-container {
+	width: 400px;
+	height: 420px;
+	flex-direction: column;
+	justify-content: space-between;
+	font-size: 30px;
+	color: var(--project-yellow);
+}
+
+.movie-title-container {
+	height: 10%;
+}
+
+.movie-images-container {
+	height: 90%;
+	width: 100%;
+	flex-wrap: wrap;
+	column-gap: 10px;
+}
+
+.movie-images-container .content {
+	height: 50%;
+	column-gap: 10px;
+	width: 100%;
+}
+
+.movie-images-container img {
+	width: 180px;
+	height: 140px;
+	object-fit: fill;
+}
