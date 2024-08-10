@@ -1,5 +1,6 @@
 <!-- **Done -->
 
-1. page-bio article into columns.
-2. Align header and aritice side by side
-3. Header name needs diffrent styling
+1. Mobile menu and Javscript
+2. Color adjustment no gold used project yellow;
+3. Music page will need a hidden container wiht the same style with no marquee
+4. header needs hidden and header continate needs margin taken off for responsive styles
