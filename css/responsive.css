@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+	.main-wrapper {
+		width: 90%;
+	}
+}
+
+@media (max-width: 581px) {
+	#menu-toggler {
+		display: block;
+	}
+
+	.main-nav-container {
+		display: none;
+	}
+
+	.life-span-container {
+		flex-direction: column;
+	}
+}

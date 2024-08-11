@@ -34,7 +34,38 @@ html {
 }
 
 body {
-	height: 100%;
+	height: auto;
+	position: relative;
+}
+
+#menu-toggler {
+	color: var(--project-yellow);
+	font-size: 1.8rem;
+	position: absolute;
+	right: 50px;
+	top: 12px;
+	z-index: 3;
+	cursor: pointer;
+	display: none;
+}
+
+#mobile-menu {
+	display: none;
+	width: 200px;
+	height: 200px;
+	background: linear-gradient(
+		to bottom,
+		var(--project-blue),
+		var(--project-blue-dark),
+		var(--project-yellow)
+	);
+	flex-direction: column;
+	position: absolute;
+	z-index: 2;
+	right: 40px;
+	top: 8px;
+	justify-content: space-around;
+	transition: ease-in 0.2ms;
 }
 
 .container {
@@ -81,6 +112,7 @@ img {
 	padding: 1rem;
 	flex-direction: column;
 	justify-content: flex-start;
+	margin-top: 60px;
 }
 
 .header-container {
@@ -108,7 +140,7 @@ img {
 .life-span-container {
 	width: 100%;
 	height: fit-content;
-	color: var(--project-gold-light);
+	color: var(--project-yellow);
 	font-size: 1.5rem;
 	justify-content: space-around;
 }
