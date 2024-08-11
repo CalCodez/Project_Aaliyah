@@ -138,6 +138,7 @@
 	width: 100%;
 	height: auto;
 	row-gap: 20px;
+	flex-wrap: wrap;
 }
 
 .album-title-container {
@@ -156,6 +157,7 @@
 .albums-container .container {
 	width: 100%;
 	height: auto;
+	/*outline: 1px solid yellow;*/
 }
 
 .marquee-album-container marquee {
@@ -169,7 +171,38 @@
 	column-gap: 30px;
 }
 
+.album-section-2 {
+	display: none;
+}
+
+.album-section-2 {
+	height: auto;
+	width: fit-content;
+	flex-wrap: wrap;
+}
+
+.album-section-2 .album-wrapper-container {
+	width: fit-content;
+	height: auto;
+	flex-wrap: wrap;
+}
+
 marquee .album-wrapper {
+	width: 220px;
+	height: 200px;
+	flex-direction: column;
+	text-align: center;
+	color: var(--project-yellow);
+	font-size: 0.8rem;
+	letter-spacing: 1.2;
+}
+
+.album-section-2 {
+	height: auto;
+	flex-wrap: wrap;
+}
+
+.album-section-2 .album-wrapper {
 	width: 220px;
 	height: 200px;
 	flex-direction: column;
